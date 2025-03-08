@@ -48,7 +48,7 @@ select {
 }
 #mealDisplay {
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     word-wrap: break-word;
 }
