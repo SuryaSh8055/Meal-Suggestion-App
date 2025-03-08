@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-vector/hand-drawn-indian-cuisine-illustrations_23-2149353847.jpg?t=st=1741429475~exp=1741433075~hmac=8541d2bede25172154f64a9419e3946e391b01eea7a4d6f84a916fb26337786f&w=1380');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 3px #999;
+    width: 100%;
+}
+button:hover {
+    background-color: darkblue;
+}
+button:active {
+    box-shadow: 0 1px #999;
+    transform: translateY(2px);
+}
+select {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+#mealDisplay {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+    select {
+        font-size: 14px;
+        padding: 8px;
+    }
+    body {
+        height: auto;
+        padding: 20px;
+    }
+}
