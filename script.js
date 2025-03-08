@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if(meals[selectedType] && meals[selectedType].length > 0) {
             const randomMeal = meals[selectedType][Math.floor(Math.random() * meals[selectedType].length)];
-            mealDisplay.innerHTML = `How about: ${randomMeal} today?`;
+            mealDisplay.innerHTML = `How about: <span style="color: red;">${randomMeal}</span> today?`;
         } else {
             mealDisplay.textContent = "No meals available!";
         }
